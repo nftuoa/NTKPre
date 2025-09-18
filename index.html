@@ -1,0 +1,52 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="dist/reveal.css">
+
+    <link rel="stylesheet" href="dist/theme/serif.css">
+</head>
+
+<body>
+<div class="reveal">
+    <div class="slides">
+
+        <section >
+            Neural Tangent Kernel and its Mathematical Proof
+
+        </section>
+        <section>
+            <h2>The Lorenz Equations</h2>
+            \begin{aligned}
+            E\left(g_{l-1}(\boldsymbol x)\right)^{2}
+            & =E\left(\sigma\left(f_{l-1}(\boldsymbol x)\right)\right)^{2} \\
+            & =\int_{-\infty}^{\infty} p\left(f_{l-1}(\boldsymbol x)\right)\left(\sigma\left(f_{l-1}(\boldsymbol x)\right)\right)^{2} d f_{l-1}(\boldsymbol x) \\
+            & =E_{z\sim N(0,1)}{(\sigma(z))}^{2}\,\,\,\,\,，是一个只与\sigma有关的常数，也就是我们的\frac1{C_\sigma}\\
+            & =\frac1{C_\sigma}
+            \end{aligned}
+        </section>
+    </div>
+</div>
+
+<script src="dist/reveal.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script src="plugin/math/math.js"></script>
+<script>
+    Reveal.initialize({
+        hash: true,
+        // 是否在右下角展示控制条
+        controls: true,
+        // 是否显示演示的进度条
+        progress: true,
+        // 是否显示当前幻灯片的页数
+        slideNumber: 'c/t',
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3]
+    });
+</script>
+
+
+</body>
+
+</html>
