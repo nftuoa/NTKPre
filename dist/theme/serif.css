@@ -17,12 +17,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  *********************************************/
 :root {
   --r-background-color: #F0F1EB;
-  --r-main-font: Palatino Linotype, Book Antiqua, Palatino, FreeSerif, serif;
-  --r-main-font-size: 40px;
+  --r-main-font: LXGW Neo XiHei Screen Full;
+  --r-main-font-size: 20px;
   --r-main-color: #000;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: Palatino Linotype, Book Antiqua, Palatino, FreeSerif, serif;
+  --r-heading-font: Red Hat Display, Source Han Sans CN;
   --r-heading-color: #383D3D;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
@@ -30,10 +30,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-heading-text-shadow: none;
   --r-heading-font-weight: normal;
   --r-heading1-text-shadow: none;
-  --r-heading1-size: 3.77em;
-  --r-heading2-size: 2.11em;
-  --r-heading3-size: 1.55em;
-  --r-heading4-size: 1em;
+  --r-heading1-size: 1.68em;
+  --r-heading2-size: 1.5em;
+  --r-heading3-size: 1.31em;
+  --r-heading4-size: 1.12em;
   --r-code-font: monospace;
   --r-link-color: #51483D;
   --r-link-color-dark: rgb(68.85, 61.2, 51.85);
@@ -48,7 +48,20 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   background: #F0F1EB;
   background-color: var(--r-background-color);
 }
+.reveal-viewport {
+    position: relative;
+}
 
+.reveal-viewport::after {
+    content: "Neural Tangent Kernel and its Mathematical Proof";
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-family: var(--r-heading-font);
+    font-size: 1.2em;
+    color: var(--r-heading-color);
+    z-index: 1000;
+}
 .reveal {
   font-family: var(--r-main-font);
   font-size: var(--r-main-font-size);
@@ -300,7 +313,16 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal img {
   margin: var(--r-block-margin) 0;
 }
-
+.reveal footer {
+    background-color: red;
+    position: absolute;
+    top: 0vh;        /* 视口高度的2% */
+    left: 0vw;         /* 视口宽度的2% */
+    font-size: 1.75vmin; /* 取vw和vh中较小的值 */
+    font-family: var(--r-heading-font);
+    color: #555;
+    z-index: 100;
+}
 /*********************************************
  * LINKS
  *********************************************/

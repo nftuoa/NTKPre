@@ -1,29 +1,37 @@
-<html>
+<html xmlns="">
 
 <head>
 
     <link rel="stylesheet" href="dist/reveal.css">
 
     <link rel="stylesheet" href="dist/theme/serif.css">
+    <link rel="stylesheet" href="plugin/title-footer/title-footer.css">
 </head>
 
 <body>
 <div class="reveal">
+
     <div class="slides">
 
-        <section >
-            Neural Tangent Kernel and its Mathematical Proof
+        <section data-background-gradient="radial-gradient(#FFFDD0,#F8F8FF,#F5F5F5)">
+
+            <h1>Neural Tangent Kernel and its Mathematical Proof</h1>
+
+            <h2>王瑞杰,脱凡</h2>
+            <p >2025.9.23</p>
+        </section>
+        <section data-background-gradient="radial-gradient(#FFFDD0,#F8F8FF,#F5F5F5)">
+            <h2>Section 1: Kaiming Initialization</h2>
+            <h2>Section 2: What is NTK?</h2>
+            <h2>Section 3: Proofs from NTK</h2>
+        </section>
+        <section data-background-gradient="radial-gradient(#FFFDD0,#F8F8FF,#F5F5F5)">
+            <video src="media/video1.webm"  autoplay ></video>
 
         </section>
-        <section>
-            <h2>The Lorenz Equations</h2>
-            \begin{aligned}
-            E\left(g_{l-1}(\boldsymbol x)\right)^{2}
-            & =E\left(\sigma\left(f_{l-1}(\boldsymbol x)\right)\right)^{2} \\
-            & =\int_{-\infty}^{\infty} p\left(f_{l-1}(\boldsymbol x)\right)\left(\sigma\left(f_{l-1}(\boldsymbol x)\right)\right)^{2} d f_{l-1}(\boldsymbol x) \\
-            & =E_{z\sim N(0,1)}{(\sigma(z))}^{2}\,\,\,\,\,，是一个只与\sigma有关的常数，也就是我们的\frac1{C_\sigma}\\
-            & =\frac1{C_\sigma}
-            \end{aligned}
+        <section data-background-gradient="radial-gradient(#FFFDD0,#F8F8FF,#F5F5F5)">
+            <h2>Kaiming Initialization</h2>
+            to be finished...
         </section>
     </div>
 </div>
@@ -33,16 +41,18 @@
 <script src="plugin/markdown/markdown.js"></script>
 <script src="plugin/highlight/highlight.js"></script>
 <script src="plugin/math/math.js"></script>
+<script src="plugin/zoom/zoom.js"></script>
+
 <script>
     Reveal.initialize({
-        hash: true,
+        hash: false,
         // 是否在右下角展示控制条
-        controls: true,
+        controls: false,
         // 是否显示演示的进度条
-        progress: true,
+        progress: false,
         // 是否显示当前幻灯片的页数
-        slideNumber: 'c/t',
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3]
+
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3,RevealZoom]
     });
 </script>
 
