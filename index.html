@@ -31,16 +31,68 @@ src: url("./media/LXGW_Neo_XiHei_Screen_Full_Regular.ttf")format('truetype');
         </section>
         <section data-background-gradient="radial-gradient(#FFFDD0,#F8F8FF,#F5F5F5)">
             <h2>Section 1: Kaiming Initialization</h2>
-            <h2>Section 2: What is NTK?</h2>
-            <h2>Section 3: Proofs from NTK</h2>
+            <h2>Section 2: Definition and Proofs for NTK</h2>
         </section>
         <section data-background-gradient="radial-gradient(#FFFDD0,#F8F8FF,#F5F5F5)">
-            <video src="media/video1.webm"  autoplay ></video>
+            <video src="media/video1.webm"  autoplay controls="controls"></video>
 
         </section>
         <section data-background-gradient="radial-gradient(#FFFDD0,#F8F8FF,#F5F5F5)">
             <h2>Kaiming Initialization</h2>
-            to be finished...
+            <video src="media/video2.webm"  autoplay controls="controls" ></video>
+        </section>
+        <section data-auto-animate data-background-gradient="radial-gradient(#FFFDD0,#F8F8FF,#F5F5F5)">
+            <h2>Kaiming Initialization</h2>
+            <video src="media/video3.webm"  autoplay controls="controls"></video>
+        </section>
+        <section data-background-gradient="radial-gradient(#FFFDD0,#F8F8FF,#F5F5F5)">
+            <h2>Kaiming Initialization</h2>
+            <video src="media/video4.webm"  autoplay controls="controls"></video>
+        </section>
+        <section>
+            <h1>
+                Section 2: Definition and Proofs for NTK
+            </h1>
+        </section>
+        <section>
+            <h2>
+                Definition and Proofs for NTK
+            </h2>
+            \begin{aligned}
+            \partial_{t} u(t, \boldsymbol{x}) & =\partial_{t} f(\boldsymbol{x}, \boldsymbol{\theta}) \\
+            & =\nabla_{\boldsymbol{\theta}} f(\boldsymbol{x}, \boldsymbol{\theta}) \cdot \partial_{t} \boldsymbol{\theta} \\
+            & =-\nabla_{\boldsymbol{\theta}} f(\boldsymbol{x}, \boldsymbol{\theta}) \cdot \nabla_{\boldsymbol{\theta}} L \\
+
+            & =-\nabla_{\boldsymbol{\theta}} f(\boldsymbol{x}, \boldsymbol{\theta}) \cdot \int_{R^{d}}
+            \frac{\partial \mathbf{Loss}}{\partial f\left(\boldsymbol{x}^{\prime}, \boldsymbol{\theta}\right)}
+            \nabla_{\boldsymbol{\theta}} f\left(\boldsymbol{x}^{\prime}, \boldsymbol{\theta}\right) \rho\left(\boldsymbol{x}^{\prime}\right) \mathrm{d} \boldsymbol{x}^{\prime} \\
+
+
+            & =-\int_{R^{d}} \nabla_{\boldsymbol{\theta}} f(\boldsymbol{x}, \boldsymbol{\theta}) \cdot \nabla_{\boldsymbol{\theta}} f\left(\boldsymbol{x}^{\prime}, \boldsymbol{\theta}\right)
+
+            \frac{\partial \mathbf{Loss}}{\partial f\left(\boldsymbol{x}^{\prime}, \boldsymbol{\theta}\right)}\rho\left(\boldsymbol{x}^{\prime}\right)
+            \mathrm{d} \boldsymbol{x}^{\prime}\\
+
+            &=-\int_{R^{d}} \nabla_{\boldsymbol{\theta}} f(\boldsymbol{x}, \boldsymbol{\theta}) \cdot \nabla_{\boldsymbol{\theta}} f\left(\boldsymbol{x}^{\prime}, \boldsymbol{\theta}\right) u_{\rho}\left(\boldsymbol{x}^{\prime}\right) \mathrm{d} \boldsymbol{x}^{\prime}
+
+            & K(\boldsymbol{x},\boldsymbol{x}^{\prime})=\nabla_{\boldsymbol{\theta}} f(\boldsymbol{x}, \boldsymbol{\theta}) \cdot \nabla_{\boldsymbol{\theta}} f\left(\boldsymbol{x}^{\prime}, \boldsymbol{\theta}\right) , NTK
+            \end{aligned}
+        </section>
+        <section>
+            <h2>
+                Definition and Proofs for NTK
+            </h2>
+            \begin{aligned}
+            & {d_l}\rightarrow +\infty,l\neq0 \\ \\
+            & P=\sum_{l=1}^{L}(d_{l-1}+1)(d_l)\rightarrow+\infty \\ \\
+            & K_{i_{1} i_{2}} \rightarrow G_{i_{1} i_{2}}=E_{q \sim \rho_{q}(t)} \nabla_{q} f\left(\boldsymbol{x}_{i_{1}}, \boldsymbol{q}_{j}\right) \cdot \nabla_{q} f\left(\boldsymbol{x}_{i_{2}}, \boldsymbol{q}_{j}\right) \\ \\
+            & \partial_{t} u(\mathcal X)
+            =-G(\mathcal X,\mathcal X) u_L(\mathcal X) \\ \\
+            & f(\boldsymbol{x}, \boldsymbol{\theta}({t})) \approx f(\boldsymbol{x}, \boldsymbol{\theta}(0))+\nabla_{\boldsymbol{\theta}} f(\boldsymbol{x}, \boldsymbol{\theta}(0)) \cdot(\boldsymbol{\theta}(t)-\boldsymbol{\theta}(0)) \\ \\
+            & \nabla_{\boldsymbol{\theta}} f(\boldsymbol{x}, t)=\nabla_{\boldsymbol{\theta}} f(\boldsymbol{x}, 0) \\ \\
+            & G_{i_{1} i_{2}}=E_{q \sim \rho_{q}(0)} \nabla_{q} f\left(\boldsymbol{x}_{i_{1}}, \boldsymbol{q}_{j}\right) \cdot \nabla_{q} f\left(\boldsymbol{x}_{i_{2}}, \boldsymbol{q}_{j}\right)=const
+
+            \end{aligned}
         </section>
     </div>
 </div>

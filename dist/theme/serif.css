@@ -315,16 +315,16 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .reveal img {
   margin: var(--r-block-margin) 0;
-}
-.reveal footer {
-    background-color: red;
+
+.reveal footer:last-child {
     position: absolute;
-    top: 0vh;        /* 视口高度的2% */
-    left: 0vw;         /* 视口宽度的2% */
-    font-size: 1.75vmin; /* 取vw和vh中较小的值 */
+    bottom: 20px;
+    left: 20px;
     font-family: var(--r-heading-font);
-    color: #555;
-    z-index: 100;
+    font-size: 1.2em;
+    color: var(--r-heading-color);
+    z-index: 1000;
+
 }
 /*********************************************
  * LINKS
