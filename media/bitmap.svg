@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1893.1067"
+   height="840.02332"
+   viewBox="0 0 1893.1067 840.02332"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-5.9320663,-48.726898)">
+    <text
+       xml:space="preserve"
+       style="font-size:64px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.524478;fill:#000000;fill-opacity:1"
+       x="11.739133"
+       y="92.445648"
+       id="text1"><tspan
+         id="tspan1"
+         x="11.739133"
+         y="92.445648"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;font-family:'Nimbus Roman';-inkscape-font-specification:'Nimbus Roman, ';fill:#000000;fill-opacity:1">References:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Nimbus Roman';-inkscape-font-specification:'Nimbus Roman, ';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.524478;fill:#000000;fill-opacity:1"
+       x="8.8043509"
+       y="227.44566"
+       id="text2"><tspan
+         id="tspan2"
+         x="8.8043509"
+         y="227.44566"
+         style="font-size:21.3333px;fill:#000000;fill-opacity:1">Jacot, A., Gabriel, F., &amp; Hongler, C. (2018).</tspan><tspan
+         x="8.8043509"
+         y="254.11229"
+         id="tspan3"
+         style="font-size:21.3333px;fill:#000000;fill-opacity:1">Neural tangent kernel: Convergence and </tspan><tspan
+         x="8.8043509"
+         y="280.7789"
+         id="tspan4"
+         style="font-size:21.3333px;fill:#000000;fill-opacity:1">generalization in neural networks. </tspan><tspan
+         x="8.8043509"
+         y="307.44553"
+         id="tspan5"
+         style="font-size:21.3333px;fill:#000000;fill-opacity:1">Advances in neural information processing systems, 31.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Nimbus Roman';-inkscape-font-specification:'Nimbus Roman, ';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.524478;fill:#000000;fill-opacity:1"
+       x="7.3369498"
+       y="412.33698"
+       id="text6"><tspan
+         id="tspan6"
+         x="7.3369498"
+         y="412.33698">He, K., Zhang, X., Ren, S., &amp; Sun, J. (2015). Delving </tspan><tspan
+         x="7.3369498"
+         y="439.0036"
+         id="tspan7">deep into rectifiers: Surpassing human-level performance </tspan><tspan
+         x="7.3369498"
+         y="465.67023"
+         id="tspan8">on imagenet classification. In Proceedings of the IEEE </tspan><tspan
+         x="7.3369498"
+         y="492.33685"
+         id="tspan9">international conference on computer vision (pp. 1026-1034).</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Nimbus Roman';-inkscape-font-specification:'Nimbus Roman, ';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.524478;fill:#000000;fill-opacity:1"
+       x="5.8695664"
+       y="584.02173"
+       id="text10"><tspan
+         x="5.8695664"
+         y="584.02173"
+         id="tspan11">Belkin, M., Hsu, D., Ma, S., &amp; Mandal, S. (2019). Reconciling </tspan><tspan
+         x="5.8695664"
+         y="610.68835"
+         id="tspan12">modern machine-learning practice and the classical </tspan><tspan
+         x="5.8695664"
+         y="637.35498"
+         id="tspan13">bias–variance trade-off. Proceedings of the </tspan><tspan
+         x="5.8695664"
+         y="664.02161"
+         id="tspan16">National Academy of Sciences, 116(32), 15849-15854.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:'Nimbus Roman';-inkscape-font-specification:'Nimbus Roman, ';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.524478;fill:#000000;fill-opacity:1"
+       x="1448.567"
+       y="95.988243"
+       id="text17"><tspan
+         id="tspan17"
+         x="1448.567"
+         y="95.988243"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:'Red Hat Display';-inkscape-font-specification:'Red Hat Display';fill:#000000;fill-opacity:1">Visit the repository nftuoa/NTKPre</tspan><tspan
+         x="1448.567"
+         y="133.05791"
+         id="tspan18"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:'Red Hat Display';-inkscape-font-specification:'Red Hat Display';fill:#000000;fill-opacity:1">at GitHub to get the source codes </tspan><tspan
+         x="1448.567"
+         y="170.12756"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:'Red Hat Display';-inkscape-font-specification:'Red Hat Display';fill:#000000;fill-opacity:1"
+         id="tspan20">for the Reveal.js Slides </tspan><tspan
+         x="1448.567"
+         y="207.19722"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:'Red Hat Display';-inkscape-font-specification:'Red Hat Display';fill:#000000;fill-opacity:1"
+         id="tspan19">and Manim animations </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Red Hat Display';-inkscape-font-specification:'Red Hat Display';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:0.524478;fill:#000000;fill-opacity:1"
+       x="1467.3912"
+       y="881.90222"
+       id="text21"><tspan
+         id="tspan21"
+         x="1467.3912"
+         y="881.90222"
+         style="font-size:32px">©2025  Wang Ruijie &amp; Tuo Fan</tspan></text>
+  </g>
+</svg>
